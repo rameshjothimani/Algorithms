@@ -1,5 +1,7 @@
 package com.algorthims;
 
+
+//Create a binary tree node
 class Node{
     int key;
     Node left,right;
@@ -11,13 +13,13 @@ class Node{
 }
 
 
-
+//class to make binary tree traversals
 public class BinaryTreeTraversal {
 
     Node root;
 
      //Pre-Order traversal - Root Left,Right
-    void preOrderTraversal(Node node){
+    private void preOrderTraversal(Node node){
 
         if(node==null){
             return;
@@ -29,7 +31,7 @@ public class BinaryTreeTraversal {
     }
 
     //InOrder traversal - Left,Root,Right
-    void inOrderTraversal(Node node){
+    private void inOrderTraversal(Node node){
 
         if (node==null){
             return;
@@ -42,7 +44,7 @@ public class BinaryTreeTraversal {
     }
 
     //PostOrder traversal - Left,Right,Root
-    void postOrderTraversal(Node node){
+    private void postOrderTraversal(Node node){
 
         if(node==null){
             return;
