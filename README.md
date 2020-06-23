@@ -1,3 +1,3 @@
-# Algorithms
+# Data Structures & Algorithms
 
-Algorithms Practice
+This repo contains the Data Structures & Algorithms - Practice Problems
